@@ -15,6 +15,41 @@
 #name = input("What is your name? ")
 #Name = input("What is your name? ")
 #print(name)
+
+myString = "something"
+myInt = 100
+myFloat = 2.5
+
+#casting example
+print(myInt/2)
+myNewInt = "100"
+print(int(myNewInt)/2)
+
+num1 = int(input("please enter a number"))
+
+print(num1 + num1)
+
+print("My int = " + str(myInt))
+
+thing = 500/6
+print(thing)
+print("my result is " + str(thing))
+print("My result is " , thing)
+print(f"My result is {thing}") #fstring - {} are for variables
+
+
+print("First line\nSecond line\nThird line")
+print("list header")
+print("\t* Item1")
+print("\t* Item2")
+print("\t* Item3\n\t* Item4\n\t* Item5")
+
+#file path example
+#C:\User\myname\Documents\OneNote Notebooks
+print("C:\\User\\AnaanAhmed\\Document\\.fknr vowaieslvnw...")
+
+
+
 #print(Name)
 #
 # Talk about Variable Types
